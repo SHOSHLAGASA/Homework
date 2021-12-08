@@ -1,0 +1,46 @@
+html {
+    background-color: antiquewhite;
+  }
+  
+  body {
+    text-align: center;
+    font-size: 18px;
+    
+  }
+  
+  h1 {
+    font-size: 50px;
+    
+  }
+  
+  img {
+    height: 100;
+    width: 35%;
+  }
+  
+  div {
+    border: 2px solid burlywood;
+    margin: 10px;
+  }
+  
+  #introPic {
+    float: center;
+  }
+  
+  #bio {
+    float: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  #bio > ul {
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start
+    
+  }
+  
+  #pro {
+    width: auto;
+  }
